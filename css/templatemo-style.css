@@ -29,7 +29,7 @@ p {
   height: auto;
   left: 50%;
   text-align: center;
-  -webkit-transform: translateX(-50%);
+  -webkit-transform: translateX(-55%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
@@ -211,7 +211,7 @@ header {
   height: 220px;
   width: 100%;
   display: inline-block;
-  
+
 }
 
 .sidebar-navigation .logo em {
@@ -321,10 +321,11 @@ header {
 /* Slider Style */
 
 .slider .content-section {
+  padding-left: 270px;
   padding-top: 0px;
   min-width: 100%;
   min-height: 100vh;
-  width: 100%;
+  width: 100px;
   height: 100vh;
   text-align: center;
 }
@@ -421,6 +422,8 @@ header {
 
 .Modern-Slider .item-1 .image {
   background-image: url(../img/slide_1.jpg);
+
+
 }
 
 .Modern-Slider .item-2 .image {
@@ -434,13 +437,13 @@ header {
 .Modern-Slider .PrevArrow:before{content:'\f104';}
 
 .Modern-Slider .item .image {
-  animation: zoomin 12s ease-in-out infinite alternate;
-  -webkit-animation: zoomin 12s ease-in-out infinite alternate;
+  animation: zoomin 13s ease-in-out infinite alternate;
+  -webkit-animation: zoomin 13s ease-in-out infinite alternate;
 }
 
 @keyframes zoomin {
     0% {-webkit-transform: scale(1);}
-    100% {-webkit-transform: scale(1.2);}
+    100% {-webkit-transform: scale(1.1);}
 }
 
 .Modern-Slider {background:transparent;}
