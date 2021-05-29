@@ -1,2 +1,2 @@
 # Gabrielspace.github.io
-WebApp test space.
+Virtual space for testing web applications.
