@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+
+
 /* TODO: Remove everything unecessary/Make the code clean */
 p {
   font-size: 13px;
@@ -14,13 +19,13 @@ p {
 }
 
 .content-section {
-  padding-top: 80px;
+  padding-top: 60px;
   position: relative;
   width: 100%;
   display: inline-block;
   height: auto;
   left: 50%;
-  text-align: center;
+  text-align: left;
   -webkit-transform: translateX(-55%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -29,12 +34,14 @@ p {
 }
 
 .section-heading {
+
   text-align: left;
   position: relative;
-  margin-bottom: 60px;
+  padding-bottom: 42px
 }
 
 .section-heading h1 {
+  text-align: right;
   margin-top: 0px;
   font-size: 32px;
   color: #232323;
@@ -43,9 +50,12 @@ p {
 }
 
 .section-heading em {
+  
   font-style: normal;
   font-weight: 900;
-  color: #45489a;
+  font-size: 72px;
+  color: #3c4250;
+  text-align: center;
 }
 
 .section-heading p {
@@ -597,8 +607,7 @@ header {
 /* Projects Style */
 
 #projects {
-  padding-left: 60px;
-  padding-right: 60px;
+
   padding-bottom: 50px;
 }
 
@@ -1029,17 +1038,12 @@ header {
     position: relative;
   }
 
-  #featured {
+  #goldschmiede {
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #f4f4f4;
   }
 
-  #featured .owl-nav {
-    position: absolute;
-    display: inline-block;
-    top: -220px;
-    right: 0;
-  }
 
   #projects {
     padding-left: 15px;
